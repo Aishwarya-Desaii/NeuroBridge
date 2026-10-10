@@ -42,8 +42,6 @@ Next.js 16 (App Router, Server Actions) · React 19 · TypeScript · Tailwind CS
 - **Server-side grading:** practice activities and mastery checks are graded on the server, and correct answers are never sent to the browser.
 - **Known limitation:** the screening check is still scored in the browser. It is a placement tool, not a grade.
 
-Open http://localhost:3000.
-
 ## Project structure
 
 ```
