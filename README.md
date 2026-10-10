@@ -42,27 +42,6 @@ Next.js 16 (App Router, Server Actions) · React 19 · TypeScript · Tailwind CS
 - **Server-side grading:** practice activities and mastery checks are graded on the server, and correct answers are never sent to the browser.
 - **Known limitation:** the screening check is still scored in the browser. It is a placement tool, not a grade.
 
-## Run locally
-
-```bash
-git clone https://github.com/sumitmuley95/neurobridge.git
-cd neurobridge
-npm install
-```
-
-Create `.env.local`:
-
-```env
-SUPABASE_URL=your-supabase-project-url
-SUPABASE_SERVICE_ROLE_KEY=your-supabase-secret-key
-SESSION_SECRET=any-random-string-of-32-or-more-characters
-GEMINI_API_KEY=your-gemini-key   # optional; falls back to rule-based picks
-```
-
-```bash
-npm run dev
-```
-
 Open http://localhost:3000.
 
 ## Project structure
